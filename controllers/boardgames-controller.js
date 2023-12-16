@@ -1,8 +1,8 @@
 function setup(app, boardgames) {
     app.get('/', function(req, res) {
       let model = {
-        title: "Boardgames Collection",
-        msg: "Welcome",
+        title: "My Boardgames Collection",
+        msg: "Boardgames Collection",
         boardgames: boardgames
       };
       res.render('home', model);
