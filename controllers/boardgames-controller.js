@@ -1,7 +1,7 @@
 function setup(app, boardgames) {
     app.get('/', function(req, res) {
       let model = {
-        title: "My Boardgames Colletion",
+        title: "Boardgames Collection",
         msg: "Welcome",
         boardgames: boardgames
       };
