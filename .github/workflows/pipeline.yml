@@ -50,6 +50,6 @@ jobs:
       - name: Install project dependencies
         run: npm install
       - name: Install Playwright
-        run: npx playwrigth install
+        run: npx playwright install
       - name: Run UI tests
         run: npm run test:ui
